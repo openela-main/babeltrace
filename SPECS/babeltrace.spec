@@ -1,6 +1,6 @@
 Name:           babeltrace
 Version:        1.5.4
-Release:        2%{?dist}
+Release:        4%{?dist}
 Summary:        Trace Viewer and Converter, mainly for the Common Trace Format
 License:        MIT and GPLv2
 URL:            https://www.efficios.com/babeltrace
@@ -115,6 +115,12 @@ rm -f %{buildroot}/%{_pkgdocdir}/std-ext-lib.txt
 
 
 %changelog
+* Wed Mar  2 2022 Bruno Larsen <blarsen@redhat.com> - 1.5.4-4
+- Bump NVR for subpackage release.
+
+* Wed Jul  1 2020 Keith Seitz <keiths@redhat.com> - 1.5.4-3
+- Bump NVR for BaseOS move.
+
 * Fri Feb 16 2018 2018 Lumír Balhar <lbalhar@redhat.com> - 1.5.4-2
 - Fix directory ownership in python3 subpackage
 
